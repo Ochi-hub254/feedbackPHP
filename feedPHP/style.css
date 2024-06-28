@@ -1,0 +1,58 @@
+body {
+  padding: 0px;
+  color: rgba(3, 1, 28, 0.976);
+  background: rgba(0, 0, 0, 0.401);
+}
+
+form {
+  color: black;
+  background: rgba(255, 255, 255, 0.337);
+  aspect-ratio: 16/9;
+  padding: 5%;
+  border-radius: 5px;
+  border: 3px solid;
+  border-color: rgba(137, 43, 226, 0.418);
+  width: 400px;
+  height: 500px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, 'Times New Roman', Times, serif;
+}
+
+input {
+  color: rgb(16, 15, 15);
+  background-color: rgba(244, 213, 213, 0.47);
+  border: none;
+  height: 8%;
+  width: 90%;
+  border-radius: 5px;
+  font-size: medium;
+}
+
+input[type="textarea"] {
+  height: 100px;
+  justify-content: start;
+  width: 360px;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: blueviolet;
+  width: 200px;
+  transition: 2s ease;
+}
+
+label {
+  font-size: larger;
+  padding-left: 0px;
+}
+
+footer{
+    padding-bottom: 0px;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    background: transparent;
+}

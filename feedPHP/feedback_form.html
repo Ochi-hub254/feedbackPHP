@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Please input your name , email , feedback and rating of our favorite candidate below : </h1>
+    <form action="submit_feedback.php" method="POST">
+        <label for="name">Enter your name please :</label><br><br>
+        <input type="text" name="name" placeholder="name"><br><br>
+        <label for="email">Key in your email : </label><br><br>
+        <input type="email" name="email" id="email" placeholder="email"><br><br>
+        <label for="feedback">Feedback : </label><br><br>
+        <input type="textarea" name="feedback" placeholder="feedback"><br><br>
+        <label for="rating">Give the candidate a rate out of ten(10): </label><br><br>
+        <input type="number" name="rate" id="rate" placeholder="rate the candidate"><br><br>
+        <input type="submit" name="submit" value="submit">
+    </form>
+<br><br><br><br><br><br><br>
+</body>
+ <footer>&copy;candidate feedback</footer>
+</html>
